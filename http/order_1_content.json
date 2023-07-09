@@ -1,0 +1,21 @@
+{
+    "recipient": {
+        "name": "Sander Nordeide",
+        "address1": "Toftes Gate 15B",
+        "city": "Oslo",
+        "state_code": "",
+        "country_code": "NO",
+        "zip": "0556"
+    },
+    "items": [
+        {
+            "variant_id": 10293,
+            "quantity": 1,
+            "files": [
+                {
+                    "url": "https://files.cdn.printful.com/products/362/10291_1554804730.jpg"
+                }
+            ]
+        }
+    ]
+}
