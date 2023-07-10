@@ -22,7 +22,7 @@ def orders(request):
             payload = json.dumps(
                 {"recipient": data.get("recipient"), "items": data.get("items")}
             )
-            requests.post(target_url, headers=headers, data=payload)
-        return JsonResponse(data)
+            printful_response = requests.post(target_url, headers=headers, data=payload)
+        return JsonResponse(printful_response.json(), safe=False)
     else:
         return JsonResponse({"message": "Invalid request method"})

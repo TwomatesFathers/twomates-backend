@@ -1,0 +1,14 @@
+{
+  "body": {
+    "content": "ewogICAgInJlY2lwaWVudCI6IHsKICAgICAgICAibmFtZSI6ICJTYW5kZXIgTm9yZGVpZGUiLAogICAgICAgICJhZGRyZXNzMSI6ICJUb2Z0ZXMgR2F0ZSAxNUIiLAogICAgICAgICJjaXR5IjogIk9zbG8iLAogICAgICAgICJzdGF0ZV9jb2RlIjogIiIsCiAgICAgICAgImNvdW50cnlfY29kZSI6ICJOTyIsCiAgICAgICAgInppcCI6ICIwNTU2IgogICAgfSwKICAgICJpdGVtcyI6IFsKICAgICAgICB7CiAgICAgICAgICAgICJ2YXJpYW50X2lkIjogMTAyOTMsCiAgICAgICAgICAgICJxdWFudGl0eSI6IDEsCiAgICAgICAgICAgICJmaWxlcyI6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAidXJsIjogImh0dHBzOi8vZmlsZXMuY2RuLnByaW50ZnVsLmNvbS9wcm9kdWN0cy8zNjIvMTAyOTFfMTU1NDgwNDczMC5qcGciCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIF0KICAgICAgICB9CiAgICBdLAogICAgImFkbWluX2ZpZWxkcyI6IHsKICAgICAgICAiZm9yd2FyZF90b19wcmludHNob3AiOiAiRmFsc2UiCiAgICB9Cn0=",
+    "file": "/Users/sandernordeide/dev/twomates-backend/http/order_1_content.json",
+    "fileSize": 542
+  },
+  "headers": {
+    "content-length": "542",
+    "content-type": "application/json"
+  },
+  "method": "POST",
+  "title": "printify",
+  "url": "http://localhost:8000/api/orders"
+}
