@@ -16,9 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from forward_order import views
+from forwarder import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/orders', views.orders, name='orders'),
+    path('api/orders/', views.orders, name='order_forwarder'),
+    path('api/products/', views.products, name='products_forwarder'),
+    path('api/products/<id>', views.products, name='products_forwarder'),
+
 ]

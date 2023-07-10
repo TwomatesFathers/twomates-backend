@@ -19,6 +19,6 @@
         }
     ],
     "admin_fields": {
-        "forward_to_printshop": "False"
+        "forward_to_printshop": "True"
     }
 }
