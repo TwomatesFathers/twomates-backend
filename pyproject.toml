@@ -9,6 +9,8 @@ packages = [{include = "twomates_backend"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 django = "^4.2.3"
+requests = "^2.31.0"
+black = "^23.3.0"
 
 
 [build-system]

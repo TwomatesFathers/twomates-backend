@@ -1,4 +1,4 @@
-{
+'{
     "recipient": {
         "name": "Sander Nordeide",
         "address1": "Toftes Gate 15B",
@@ -17,8 +17,5 @@
                 }
             ]
         }
-    ],
-    "admin_fields": {
-        "forward_to_printshop": "False"
-    }
-}
+    ]
+}'

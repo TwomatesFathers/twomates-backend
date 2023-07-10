@@ -16,13 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-]
-from django.urls import path
 from order_mockup import views
 
 urlpatterns = [
-    path('api/endpoint', views.api_endpoint, name='api_endpoint'),
+    path('admin/', admin.site.urls),
+    path('api/orders', views.orders, name='orders'),
 ]
